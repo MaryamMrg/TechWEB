@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.login-btn, .signup-btn {
+    padding: 0.5rem 1.8rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.login-btn {
+    background-color: black;
+    color: white;
+}
+
+.signup-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.hero {
+    flex: 1;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    text-align: center;
+}
+
+.main-title {
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.tagline {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.subtitle {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+footer {
+    background-color: white;
+    padding: 2rem;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-left, .contact-center, .contact-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-label {
+    font-weight: 500;
+}
+
+.contact-right {
+    text-align: right;
+}
+
+.copyright {
+    color: #666;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 3rem;
+    }
+
+    .contact-info {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .contact-right {
+        text-align: center;
+    }
+}
