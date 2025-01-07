@@ -6,7 +6,7 @@
 }
 
 body {
-    min-height: 100vh;
+    
     display: flex;
     flex-direction: column;
 }
@@ -15,38 +15,39 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 10px;
     background-color: white;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 10px;
 }
 
 .logo img {
-    height: 40px;
+    height: 70px;
+    gap: 10px;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 20px;
 }
 
 .nav-links a {
     text-decoration: none;
     color: black;
-    font-weight: 500;
+   
 }
 
 .login-btn, .signup-btn {
-    padding: 0.5rem 1.8rem;
+    padding: 10px;
     border-radius: 25px;
     border: none;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 10px;
 }
 
 .login-btn {
@@ -66,37 +67,38 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
+    padding: 200px;
     text-align: center;
 }
 
 .main-title {
     color: white;
-    font-size: 5rem;
-    font-weight: 700;
+    font-size: 100px;
+    font-weight: 700px;
+    font-style: Zen Tokyo Zoo;
     letter-spacing: 4px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 10px;
     position: relative;
     display: inline-block;
 }
 
 .tagline {
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 30px;
     font-style: italic;
-    margin-bottom: 1rem;
-    opacity: 0.9;
+    margin-bottom: 30px;
+   
 }
 
 .subtitle {
     color: white;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 50px;
 }
 
 footer {
     background-color: white;
-    padding: 2rem;
+    padding: 20px;
 }
 
 .contact-info {
@@ -114,7 +116,7 @@ footer {
 }
 
 .contact-label {
-    font-weight: 500;
+    font-weight: 50px;
 }
 
 .contact-right {
@@ -123,12 +125,12 @@ footer {
 
 .copyright {
     color: #666;
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 
 @media (max-width: 768px) {
     .main-title {
-        font-size: 3rem;
+        font-size: 30px;
     }
 
     .contact-info {
